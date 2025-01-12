@@ -50,7 +50,7 @@ const StartupCard = ({ post }: { post: StartUpCardType }) => {
             />
           </Link>
         </div>
-        <Link href={`/startups/${_id}`}>
+        <Link href={`/startup/${_id}`}>
           <p className="startup-card_desc">{description}</p>
           <img src={image} alt="plaholder" className="startup-card_img" />
         </Link>
@@ -59,7 +59,7 @@ const StartupCard = ({ post }: { post: StartUpCardType }) => {
             <p className="text-16-medium">{category}</p>
           </Link>
           <Button className="startu p-card_btn" asChild>
-            <Link href={`/startups/${_id}`}>Details</Link>
+            <Link href={`/startup/${_id}`}>Details</Link>
           </Button>
         </div>
       </div>
